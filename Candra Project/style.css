@@ -1,0 +1,162 @@
+.navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+.navbar {
+  position: sticky;
+}
+/* .my-div {
+  margin-top: 31px;
+  margin-bottom: 31px;
+} */
+
+.buttonbooknow {
+  text-align: right;
+  width: 139px;
+  height: 44px;
+  margin-bottom: -80px;
+  margin-left: 1370px;
+}
+
+.btnlogin {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  border: transparent;
+  width: 94px;
+  height: 44px;
+  background-color: #ff5733;
+}
+.btnlogin:hover {
+  background-color: #ff1833;
+}
+
+.login-btn {
+  width: 100px;
+  height: 84px;
+  float: right;
+  background-color: #ff5733;
+  color: #fff;
+}
+
+.login-btn:hover {
+  background-color: #ff1833;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.d-block {
+  width: 1620px;
+  height: 575px;
+  margin-left: 120px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin-right: 80px; /* sesuaikan dengan nilai margin yang diinginkan */
+  margin-left: 70px; /* sesuaikan dengan nilai margin yang diinginkan */
+}
+
+.carousel-caption {
+  width: 100%;
+  margin-left: -610px;
+  margin-bottom: 4px;
+}
+
+.belluno {
+  margin-left: -67px;
+}
+
+.waialua {
+  margin-left: -20px;
+}
+
+.judul1 {
+  margin-top: 40px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.card1 {
+  margin-top: 500px;
+}
+
+.cardzoom {
+  transition: 0.3s;
+}
+
+.cardzoom:hover {
+  transform: scale(1.1);
+}
+
+.our-rekomendation {
+  color: #ff1833;
+  font-weight: bold;
+}
+.judul2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card2{
+  padding-top: 45px;
+}
+
+.card3 {
+  padding-top: 45px;
+}
+
+.judul3 {
+  padding-top: 25px;
+}
+.rectanglei{
+  width: 465px;
+  height: 160px;
+  background-color:#1A1A1A;
+  translate: (-50%,-50%);
+  
+}
+.checked{
+  color: white;
+}
+.uncheck{
+  color: #fff;
+  opacity: 50%;
+}
+.circle {
+  background-color: #ff5733;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-left: 15px;
+}
+.wts{
+  margin-top: 10%;
+  margin-left: 60%;
+  translate: (-50%, -50%);
+}
+.rectangle {
+  width: 1366px;
+  height: 300px;
+  background-color: #1A1A1A;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 4%;
+}
+
+
+
+
+
+
+
+
