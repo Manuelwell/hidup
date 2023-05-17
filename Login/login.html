@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <!-- icon title -->
+    <link rel="apple-touch-icon" type="image/png" href="img/iconLogo.svg" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="76x76"
+      href="img/iconLogo.svg"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="120x120"
+      href="img/iconLogo.svg"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="152x152"
+      href="img/iconLogo.svg"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="img/iconLogo.svg"
+      sizes="60x60"
+    />
+    <link rel="icon" type="image/png" href="img/iconLogo.svg" />
+    <link rel="icon" type="image/png" href="img/iconLogo.svg" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/iconLogo.svg" sizes="192x192" />
+    <link rel="icon" type="image/png" href="img/iconLogo.svg" sizes="16x16" />
+
+    <!-- aosJS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Flowbite -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+
+    <!-- Tailwind Elements -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+    rel="stylesheet" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script>
+    tailwind.config = {
+    darkMode: "class",
+    theme: {
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+        body: ["Roboto", "sans-serif"],
+        mono: ["ui-monospace", "monospace"],
+        },
+      },
+    corePlugins: {
+    preflight: false,
+      },
+    };
+    </script>
+
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+            fontFamily:{
+              'Humanst521BT':['Humanst521 BT'],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- 
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style> 
+    -->
+
+    <!-- style css -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        scroll-behavior: smooth 5000s;
+      }
+    </style>
+    
+    <title>TravelGo - Login Page</title>
+</head>
+<body>
+<!-- References Website: https://pin.it/4FyFR7c -->
+<div id="container" class="bg-black w-full h-[100vh] flex relative">
+    <div id="login_field" class="bg-[#1A1A1A] w-[70rem] h-[40rem] m-auto flex justify-around">
+      <div id="login" class="my-auto">
+        <div id="header_login" class="text-white font-semibold text-4xl pb-5">Sign In</div>
+        <div id="content_login" class="text-white">
+          <div id="email" class="pb-5">
+          <input type="email" name="" id="" placeholder="Email" class="w-72 bg-transparent placeholder:text-white border-x-0 border-t-0 focus:ring-0">
+          </div>
+          <div id="password" class="">
+          <input type="password" name="" id="" placeholder="Password" class="w-72 bg-transparent placeholder:text-white border-x-0 border-t-0 focus:ring-0">
+          </div>
+        </div>
+        <div id="btn_login" class="text-white mx-auto w-max pt-5">
+          <div id="login">
+          <button class="text-center bg-[#FF5733] w-72 h-10">
+            <p>Login Account</p>
+          </button>
+          </div>
+          <div id="with_google" class="pt-5">
+          <button class="text-center border border-[#FF5733] w-72 h-10 flex justify-center items-center">
+            <img src="../img/google.svg" alt="" class="pr-2">
+            <p>Sign in with Google</p>
+          </button>
+          </div>
+        </div>
+      </div>
+      <div id="image" class="flex relative">
+        <div id="mark_login" class="w-max h-max p-2 bg-[#FF5733] text-white rounded-sm absolute right-5 top-12">
+          <p>Log in</p>
+        </div>
+        <img src="../img/pict_login.svg" alt="" class="w-max my-auto">
+      </div>
+    </div>
+
+</div>
+<!-- aosJS -->
+<script>
+AOS.init();
+</script>
+<!-- Flowbite -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/datepicker.min.js"></script>
+</body>
